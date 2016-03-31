@@ -96,9 +96,6 @@ fail2ban_services:
     # How should the ban be applied?
     # OPTIONAL: Defaults to the banaction listed above.
     banaction: iptables-multiport
-
-# The amount in seconds to cache apt-update.
-apt_cache_valid_time: 86400
 ```
 
 ## Example playbook
